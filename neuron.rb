@@ -60,7 +60,7 @@ def teachNeuron (neuron, learnRate)
 		neuron.Weight[2] = t + learnRate.to_f * (d - y)/((d - y).abs)
 
 		if (neuron.Weight[0] == ws) and (neuron.Weight[1] == wm) and (neuron.Weight[2] == t)
-			puts 66.to_s
+			puts "Teaching finished!"
 			break
 		end
 		iter = iter + 1
