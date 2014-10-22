@@ -117,6 +117,3 @@ gets
 
 checkControlValue neuron
 checkingNeuron neuron
-
-
-
